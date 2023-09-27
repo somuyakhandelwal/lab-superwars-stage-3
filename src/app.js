@@ -27,7 +27,7 @@ const initPlayers = (players) => {
         return {
             name: playerName,
             strength: getRandomStrength(),
-            image: `images/super-${index + 1}.png`, // Assuming image file names are "super-1.png", "super-2.png", etc.
+            image: `images/super-${index + 1}.png`,
             type: index % 2 === 0 ? 'hero' : 'villain' // Assigning heroes and villains alternatively
         };
     });
